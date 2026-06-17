@@ -1,5 +1,7 @@
 # Awesome Neuro-Symbolic Benchmarks
 
+![Awesome Neuro-Symbolic Benchmarks banner](assets/banner.png)
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-green.svg)](https://creativecommons.org/licenses/by/4.0/) [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](#contributing)
 
 A curated catalog of benchmarks, datasets, suites, tasks, and evaluation resources for neuro-symbolic AI.
