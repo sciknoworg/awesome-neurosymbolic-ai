@@ -41,7 +41,7 @@ Primary benchmark sections:
 Use this one-line format for main list entries:
 
 ```markdown
-- [Benchmark Name](https://official.example.org/) - One concise, neutral sentence. Tags: `vision` `constraints` `ood` `data+code`.
+- [Benchmark Name](https://official.example.org/) - One concise, neutral sentence. Tags: 🖼️ vision ✅ constraints 🔁 OOD 🟢 data+code.
 ```
 
 Use the shortest accurate description possible. Avoid promotional wording.
@@ -63,35 +63,35 @@ Every main-list resource should have enough public documentation to verify:
 
 ## Tags
 
-Use the README tag vocabulary exactly. Tags are lowercase code-formatted words.
+Use the README tag vocabulary exactly. Tags combine one compact symbol with a short label.
 
 Modality and domain tags:
 
-- `vision`
-- `language`
-- `video`
-- `audio`
-- `kg`
-- `robotics`
-- `driving`
-- `science`
-- `synthetic`
-- `multimodal`
+- 🖼️ vision
+- 📝 language
+- 🎥 video
+- 🔊 audio
+- 🕸️ KG
+- 🤖 robotics
+- 🚗 driving
+- 🧪 science
+- 🧩 synthetic
+- 🔀 multimodal
 
 Capability and status tags:
 
-- `concepts`
-- `shortcuts`
-- `ood`
-- `generator`
-- `constraints`
-- `proofs`
-- `metrics`
-- `data+code`
-- `data`
-- `paper`
+- 🧠 concepts
+- ⚠️ shortcuts
+- 🔁 OOD
+- 🧰 generator
+- ✅ constraints
+- 🔍 proofs
+- 📏 metrics
+- 🟢 data+code
+- 🟡 data
+- 🔵 paper
 
-Do not call something `data+code` unless there is a clear public repository or implementation path. Use `paper` when a benchmark is described in a publication but released data or code is not clearly available.
+Do not call something 🟢 data+code unless there is a clear public repository or implementation path. Use 🔵 paper when a benchmark is described in a publication but released data or code is not clearly available.
 
 ## Main List or Issue First
 
@@ -172,6 +172,6 @@ Maintainers can review a PR by checking:
 - Use sentence case.
 - Keep tags short and consistent.
 - Do not overclaim.
-- Use `paper` when data or code release is unclear.
+- Use 🔵 paper when data or code release is unclear.
 - Prefer official project pages, archival pages, publisher pages, or maintained repositories.
 - Do not quote non-public notes, correspondence, restricted documents, or project materials.
