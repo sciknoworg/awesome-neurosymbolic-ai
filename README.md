@@ -14,9 +14,13 @@ Neuro-symbolic benchmarks connect learned perception or language processing with
 - [Evaluation and Methodology](#evaluation-and-methodology)
 - [Surveys and Reading Lists](#surveys-and-reading-lists)
 - [Gaps](#gaps)
+- [Contributing](#contributing)
+- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
-## How to Read
+<a id="how-to-read"></a>
+
+## 🔎 How to Read
 
 Tags are intentionally compact:
 
@@ -26,7 +30,9 @@ Tags are intentionally compact:
 
 Good entries should expose the benchmark's task, symbolic component, and main evaluation signal. If a benchmark fits several places, it is listed where it is most useful for quick discovery.
 
-## Benchmark Catalog
+<a id="benchmark-catalog"></a>
+
+## 📚 Benchmark Catalog
 
 ### Concept Quality and Reasoning Shortcuts
 
@@ -126,14 +132,18 @@ Good entries should expose the benchmark's task, symbolic component, and main ev
 - [LLMs4OL Domain Tracks](https://sites.google.com/view/llms4ol2025) - Ontology learning tasks across biomedicine, materials science, earth science, medicine, food, plants, chemistry, and web domains. Tags: `🧪 science` `🕸️ KG` `📝 language` `📏 metrics`.
 - [OAEI Domain Tracks](https://oaei.ontologymatching.org/) - Ontology alignment tracks covering biomedical, biodiversity, ecology, food, pharmacogenomics, archaeology, circular economy, and Knowledge Graph settings. Tags: `🧪 science` `🕸️ KG` `📏 metrics` `🟢 data+code`.
 
-## Benchmark Suites and Generators
+<a id="benchmark-suites-and-generators"></a>
+
+## 🧰 Benchmark Suites and Generators
 
 - [rsbench](https://unitn-sml.github.io/rsbench/) - Neuro-symbolic suite for concept quality, reasoning shortcuts, OOD splits, and formal shortcut counting; code is on [GitHub](https://github.com/unitn-sml/rsbench). Tags: `🧠 concepts` `⚠️ shortcuts` `🔁 OOD` `🧰 generator` `✅ constraints` `🟢 data+code`.
 - [LLMs4OL](https://sites.google.com/view/llms4ol2025) - Shared-task benchmark suite for ontology learning with large language models. Tags: `🕸️ KG` `📝 language` `📏 metrics`.
 - [OAEI](https://oaei.ontologymatching.org/) - Long-running ontology and Knowledge Graph alignment evaluation initiative. Tags: `🕸️ KG` `📏 metrics` `🟢 data+code`.
 - [KANDY](https://arxiv.org/abs/2402.17431) - Benchmark framework and curricula for incremental neuro-symbolic learning with Kandinsky patterns. Tags: `🖼️ vision` `🧩 synthetic` `🧠 concepts` `🧰 generator` `🔵 paper`.
 
-## Evaluation and Methodology
+<a id="evaluation-and-methodology"></a>
+
+## 📏 Evaluation and Methodology
 
 ### Common Metrics
 
@@ -152,7 +162,9 @@ Good entries should expose the benchmark's task, symbolic component, and main ev
 - Can the benchmark detect concept collapse, concept confusion, reasoning shortcuts, or neural/symbolic component sensitivity?
 - Are provenance, license, version, splits, and maintenance status clear?
 
-## Surveys and Reading Lists
+<a id="surveys-and-reading-lists"></a>
+
+## 📖 Surveys and Reading Lists
 
 - [A Neuro-Symbolic Benchmark Suite for Concept Quality and Reasoning Shortcuts](https://unitn-sml.github.io/rsbench/) - Paper and project page for rsbench. Tags: `🧠 concepts` `⚠️ shortcuts` `📏 metrics`.
 - [Benchmarks in the Neurosymbolic Ecosystem](https://doi.org/10.4230/DagRep.15.7.53) - Dagstuhl report contribution on benchmark structure, metrics, and gaps in the neuro-symbolic ecosystem. Tags: `📏 metrics` `🔵 paper`.
@@ -161,7 +173,9 @@ Good entries should expose the benchmark's task, symbolic component, and main ev
 - [Neuro-Symbolic AI: The State of the Art](https://ebooks.iospress.nl/volume/neuro-symbolic-artificial-intelligence-the-state-of-the-art) - Edited volume covering neuro-symbolic methods and applications. Tags: `🔵 paper`.
 - [Neuro-Symbolic Visual Reasoning](https://arxiv.org/abs/2006.11524) - Work on disentangling visual perception from reasoning in VQA. Tags: `🖼️ vision` `📏 metrics` `🔵 paper`.
 
-## Gaps
+<a id="gaps"></a>
+
+## ⚠️ Gaps
 
 - Audio-symbolic and temporal-logic benchmarks are sparse.
 - Scientific-domain benchmarks are uneven across biology, law, ecology, medicine, materials science, and social science.
@@ -169,45 +183,30 @@ Good entries should expose the benchmark's task, symbolic component, and main ev
 - Few benchmarks test symbol construction, revision, provenance, explanation faithfulness, or trustworthy alignment between neural outputs and symbolic structures.
 - More benchmarks should include generators, versioned splits, concept annotations, counterfactual/OOD splits, formal constraints, and clear licenses.
 
-## Acknowledgements
+<a id="contributing"></a>
+
+## 🤝 Contributing
+
+Contributions are welcome through issues and pull requests. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before suggesting a new benchmark or resource.
+
+New entries should include a stable public URL, task, symbolic component, primary metrics, data/code/paper status, and compact tags from the README vocabulary. Please keep the list curated rather than exhaustive, add each resource to one primary section, and open an issue first when access, license, symbolic component, or benchmark status is unclear.
+
+Please also follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+<a id="license"></a>
+
+## ⚖️ License
+
+This curated list is released under [CC BY 4.0](LICENSE) unless otherwise stated. Each linked resource remains governed by its own license, access conditions, and terms of use.
+
+<a id="acknowledgements"></a>
+
+## ✨ Acknowledgements
+
+Assisted by OpenAI Codex.
 
 This list was seeded by benchmark discussions and the following Dagstuhl report contribution:
 
 - Claudia d’Amato, Jennifer D’Souza, Anna Lisa Gentile, and Hande McGinty, “Benchmarks in the Neurosymbolic Ecosystem,” in “(Actual) Neurosymbolic AI: Combining Deep Learning and Knowledge Graphs (Dagstuhl Seminar 25291),” by Pascal Hitzler, Cogan Shimizu, Daria Stepanova, and Frank van Harmelen, *Dagstuhl Reports* 15, no. 7 (2026): 107–16, [https://doi.org/10.4230/DagRep.15.7.53](https://doi.org/10.4230/DagRep.15.7.53).
 
-This repository was curated and maintained with assistance from OpenAI Codex.
-
-## Contributing
-
-Contributions are welcome through issues and pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution criteria, entry format, tag vocabulary, and review checklist.
-
-Please also follow the [Code of Conduct](CODE_OF_CONDUCT.md). Repository content is licensed under [CC BY 4.0](LICENSE).
-
-Please keep the list curated rather than exhaustive. A benchmark is a good fit when it has a stable public link and clearly supports evaluation of neuro-symbolic learning, reasoning, grounding, planning, symbolic faithfulness, concept quality, or constraint satisfaction.
-
-### Contribution Criteria
-
-- Prefer benchmarks with documented data access, tasks, metrics, and citation information.
-- Prefer resources with an explicit symbolic component, such as rules, ontologies, Knowledge Graphs, scene graphs, programs, proofs, constraints, plans, or concept labels.
-- Add each resource to the most relevant section only.
-- Use a short, factual, one-sentence description.
-- Avoid marketing language, unverified dataset sizes, and broken links.
-- Mark papers without released data/code as `🔵 paper`.
-
-### Entry Format
-
-```md
-- [Benchmark Name](https://example.org) - One-sentence description. Tags: `🖼️ vision` `✅ constraints` `🔁 OOD` `🟢 data+code`.
-```
-
-### Review Checklist
-
-- The link is stable and public.
-- The description starts with an uppercase letter and ends with a period.
-- The entry identifies the benchmark's task or evaluation purpose.
-- Tags are compact and useful for browsing.
-- The contribution does not duplicate an existing entry.
-
-## Footnotes
-
-This README was seeded from the Dagstuhl benchmark materials cited in [Acknowledgements](#acknowledgements) and public benchmark pages.
+Resource selection, review, and maintenance remain community-curated.
