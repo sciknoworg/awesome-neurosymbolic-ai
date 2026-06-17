@@ -41,7 +41,7 @@ Primary benchmark sections:
 Use this one-line format for main list entries:
 
 ```markdown
-- [Benchmark Name](https://official.example.org/) - One concise, neutral sentence. Tags: 🖼️ vision ✅ constraints 🔁 OOD 🟢 data+code.
+- [Benchmark Name](https://official.example.org/) - One concise, neutral sentence. Tags: `🖼️ vision` `✅ constraints` `🔁 OOD` `🟢 data+code`.
 ```
 
 Use the shortest accurate description possible. Avoid promotional wording.
@@ -67,31 +67,31 @@ Use the README tag vocabulary exactly. Tags combine one compact symbol with a sh
 
 Modality and domain tags:
 
-- 🖼️ vision
-- 📝 language
-- 🎥 video
-- 🔊 audio
-- 🕸️ KG
-- 🤖 robotics
-- 🚗 driving
-- 🧪 science
-- 🧩 synthetic
-- 🔀 multimodal
+- `🖼️ vision`
+- `📝 language`
+- `🎥 video`
+- `🔊 audio`
+- `🕸️ KG`
+- `🤖 robotics`
+- `🚗 driving`
+- `🧪 science`
+- `🧩 synthetic`
+- `🔀 multimodal`
 
 Capability and status tags:
 
-- 🧠 concepts
-- ⚠️ shortcuts
-- 🔁 OOD
-- 🧰 generator
-- ✅ constraints
-- 🔍 proofs
-- 📏 metrics
-- 🟢 data+code
-- 🟡 data
-- 🔵 paper
+- `🧠 concepts`
+- `⚠️ shortcuts`
+- `🔁 OOD`
+- `🧰 generator`
+- `✅ constraints`
+- `🔍 proofs`
+- `📏 metrics`
+- `🟢 data+code`
+- `🟡 data`
+- `🔵 paper`
 
-Do not call something 🟢 data+code unless there is a clear public repository or implementation path. Use 🔵 paper when a benchmark is described in a publication but released data or code is not clearly available.
+Do not call something `🟢 data+code` unless there is a clear public repository or implementation path. Use `🔵 paper` when a benchmark is described in a publication but released data or code is not clearly available.
 
 ## Main List or Issue First
 
@@ -113,6 +113,8 @@ Open an issue first when:
 ## Automated PR Checklist
 
 Automated pull requests should include this information in the PR body:
+
+This checklist is also provided as the repository pull request template, so it should appear automatically when contributors open a new PR on GitHub.
 
 ```markdown
 ## Resource
@@ -172,6 +174,6 @@ Maintainers can review a PR by checking:
 - Use sentence case.
 - Keep tags short and consistent.
 - Do not overclaim.
-- Use 🔵 paper when data or code release is unclear.
+- Use `🔵 paper` when data or code release is unclear.
 - Prefer official project pages, archival pages, publisher pages, or maintained repositories.
 - Do not quote non-public notes, correspondence, restricted documents, or project materials.
