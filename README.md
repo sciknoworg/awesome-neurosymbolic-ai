@@ -1,5 +1,3 @@
-# Awesome Neuro-Symbolic Benchmarks
-
 ![Awesome Neuro-Symbolic Benchmarks banner](assets/banner.png)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-green.svg)](https://creativecommons.org/licenses/by/4.0/) [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](#contributing)
@@ -205,10 +203,10 @@ This curated list is released under [CC BY 4.0](LICENSE) unless otherwise stated
 
 ## ✨ Acknowledgements
 
-Assisted by OpenAI Codex.
+[![Assisted by: OpenAI Codex](https://img.shields.io/badge/assisted%20by-OpenAI%20Codex-412991.svg)](https://openai.com/codex/)
 
 This list was seeded by benchmark discussions and the following Dagstuhl report contribution:
 
 - Claudia d’Amato, Jennifer D’Souza, Anna Lisa Gentile, and Hande McGinty, “Benchmarks in the Neurosymbolic Ecosystem,” in “(Actual) Neurosymbolic AI: Combining Deep Learning and Knowledge Graphs (Dagstuhl Seminar 25291),” by Pascal Hitzler, Cogan Shimizu, Daria Stepanova, and Frank van Harmelen, *Dagstuhl Reports* 15, no. 7 (2026): 107–16, [https://doi.org/10.4230/DagRep.15.7.53](https://doi.org/10.4230/DagRep.15.7.53).
 
-Resource selection, review, and maintenance remain community-curated.
+This list was initially structured and edited with assistance from [OpenAI Codex](https://openai.com/codex/). Resource selection, review, and maintenance remain community-curated.
