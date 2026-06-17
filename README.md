@@ -173,7 +173,7 @@ This list was seeded by benchmark discussions and the following Dagstuhl report 
 
 ## Contributing
 
-Contributions are welcome through issues and pull requests.
+Contributions are welcome through issues and pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution criteria, entry format, tag vocabulary, and review checklist.
 
 Please keep the list curated rather than exhaustive. A benchmark is a good fit when it has a stable public link and clearly supports evaluation of neuro-symbolic learning, reasoning, grounding, planning, symbolic faithfulness, concept quality, or constraint satisfaction.
 
