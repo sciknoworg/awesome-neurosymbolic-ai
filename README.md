@@ -14,6 +14,7 @@ Neuro-symbolic benchmarks connect learned perception or language processing with
 - [Evaluation and Methodology](#evaluation-and-methodology)
 - [Surveys and Reading Lists](#surveys-and-reading-lists)
 - [Gaps](#gaps)
+- [Acknowledgements](#acknowledgements)
 
 ## How to Read
 
@@ -150,7 +151,7 @@ Good entries should expose the benchmark's task, symbolic component, and main ev
 ## Surveys and Reading Lists
 
 - [A Neuro-Symbolic Benchmark Suite for Concept Quality and Reasoning Shortcuts](https://unitn-sml.github.io/rsbench/) - Paper and project page for rsbench. Tags: `concepts` `shortcuts` `metrics`.
-- [Benchmarks in the Neurosymbolic Ecosystem](#footnotes) - Internal Dagstuhl 2025 seed note on benchmark structure, metrics, and gaps. Tags: `metrics` `paper`.
+- [Benchmarks in the Neurosymbolic Ecosystem](https://doi.org/10.4230/DagRep.15.7.53) - Dagstuhl report contribution on benchmark structure, metrics, and gaps in the neuro-symbolic ecosystem. Tags: `metrics` `paper`.
 - [Neural-Symbolic Learning and Reasoning: A Survey and Interpretation](https://arxiv.org/abs/1711.03902) - Broad survey of neural-symbolic foundations, systems, and applications. Tags: `paper`.
 - [Neuro-Symbolic Artificial Intelligence: Current Trends](https://arxiv.org/abs/2105.05330) - Survey of integration patterns and current neuro-symbolic research directions. Tags: `paper`.
 - [Neuro-Symbolic AI: The State of the Art](https://ebooks.iospress.nl/volume/neuro-symbolic-artificial-intelligence-the-state-of-the-art) - Edited volume covering neuro-symbolic methods and applications. Tags: `paper`.
@@ -163,6 +164,12 @@ Good entries should expose the benchmark's task, symbolic component, and main ev
 - Many benchmarks evaluate final task performance but not neural/symbolic component sensitivity.
 - Few benchmarks test symbol construction, revision, provenance, explanation faithfulness, or trustworthy alignment between neural outputs and symbolic structures.
 - More benchmarks should include generators, versioned splits, concept annotations, counterfactual/OOD splits, formal constraints, and clear licenses.
+
+## Acknowledgements
+
+This list was seeded by benchmark discussions and the following Dagstuhl report contribution:
+
+- Claudia d’Amato, Jennifer D’Souza, Anna Lisa Gentile, and Hande McGinty, “Benchmarks in the Neurosymbolic Ecosystem,” in “(Actual) Neurosymbolic AI: Combining Deep Learning and Knowledge Graphs (Dagstuhl Seminar 25291),” by Pascal Hitzler, Cogan Shimizu, Daria Stepanova, and Frank van Harmelen, *Dagstuhl Reports* 15, no. 7 (2026): 107–16, [https://doi.org/10.4230/DagRep.15.7.53](https://doi.org/10.4230/DagRep.15.7.53).
 
 ## Contributing
 
@@ -195,4 +202,4 @@ Please keep the list curated rather than exhaustive. A benchmark is a good fit w
 
 ## Footnotes
 
-This README was seeded from the attached Dagstuhl 2025 materials and public benchmark pages. The internal note "Benchmarks in the Neurosymbolic Ecosystem" is referenced for conceptual framing until a public citation URL is available.
+This README was seeded from the Dagstuhl benchmark materials cited in [Acknowledgements](#acknowledgements) and public benchmark pages.
